@@ -25,12 +25,12 @@ blockquote,q { quotes:"" ""; }
 /* rebuild */
 body { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:100%;color:rgb(250,226,194);background:rgb(234,81,0) url('/images/bg.png') repeat; }
 a:link,a:visited { color:rgb(250,226,194);text-decoration:none;font-weight:bold; }
-#medallion { width:270px;height:270px;margin:180px auto 0;background:transparent url('/images/medallion.png') top left no-repeat; }
-#header h1 { width:262px;height:39px;margin:32px auto 0;text-indent:-9999px;overflow:hidden;background:transparent url('/images/h1.png') top left no-repeat; }
-.more-info { margin:8px auto 0;width:512px; }
-.more-info li { font-family:Georgia,serif;font-size:12px;text-transform:uppercase;letter-spacing:3px;color:#fff;text-shadow:1px 1px 0 #b32103;width:224px;padding:24px 0 0;float:left; }
+#medallion { width:270px;height:270px;margin:180px auto 0;background:transparent url('/images/medallion.png') left top no-repeat; }
+#header h1 { width:262px;height:39px;margin:32px auto 0;text-indent:-9999px;overflow:hidden;background:transparent url('/images/h1.png') left top no-repeat; }
+.more-info { overflow:hidden;margin:0px auto 0;width:432px; }
+.more-info li { background:transparent url('/images/border.png') left top repeat-x;font-family:Palatino,Times,serif;font-size:12px;text-transform:uppercase;letter-spacing:3px;color:#fff;text-shadow:1px 1px 0 #b32103;width:184px;margin:16px 0 0;padding:8px 0 0;float:left; }
 .more-info li a,.more-info li a:visited { font-weight:normal;color:#fff;text-shadow:1px 1px 0 #b32103; }
-.more-info .year { padding:0;width:64px;height:64px;text-indent:-9999px;overflow:hidden;background:transparent url('/images/two-eleven.png') center center no-repeat; }
+.more-info .year { margin:0;padding:0;width:64px;height:64px;text-indent:-9999px;overflow:hidden;background:transparent url('/images/two-eleven.png') center center no-repeat; }
 .more-info .link { text-align:left; }
 .more-info .date { text-align:right; }
 .more-info .date span { text-transform:none;letter-spacing:0; }
