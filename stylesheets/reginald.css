@@ -25,14 +25,14 @@ blockquote,q { quotes:"" ""; }
 input::-webkit-input-placeholder { color: #8fb2bf; }
 
 /* rebuild */
-body { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:100%;color:rgb(250,226,194);background:rgb(234,81,0) url('../images/bg.png') center top repeat; }
+body { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:100%;color:rgb(250,226,194);background:rgb(234,81,0) url('/images/bg.png') center top repeat; }
 a:link,a:visited { color:rgb(250,226,194);text-decoration:none;font-weight:bold; }
-#medallion { width:270px;height:270px;margin:180px auto 0;background:transparent url('../images/medallion.png') left top no-repeat; }
-#header h1 { width:300px;height:39px;margin:32px auto 0;text-indent:-9999px;overflow:hidden;background:transparent url('../images/h1.png') center top no-repeat; }
+#medallion { width:270px;height:270px;margin:180px auto 0;background:transparent url('/images/medallion.png') left top no-repeat; }
+#header h1 { width:300px;height:39px;margin:32px auto 0;text-indent:-9999px;overflow:hidden;background:transparent url('/images/h1.png') center top no-repeat; }
 .more-info { overflow:hidden;margin:0px auto 0;width:442px; }
-.more-info li { background:transparent url('../images/border.png') left top repeat-x;font-family:Georgia,Palatino,Times,serif;font-size:12px;text-transform:uppercase;letter-spacing:3px;color:#fff;text-shadow:1px 1px 0 #b32103;width:189px;margin:16px 0 0;padding:8px 0 0;float:left; }
+.more-info li { background:transparent url('/images/border.png') left top repeat-x;font-family:Georgia,Palatino,Times,serif;font-size:12px;text-transform:uppercase;letter-spacing:3px;color:#fff;text-shadow:1px 1px 0 #b32103;width:189px;margin:16px 0 0;padding:8px 0 0;float:left; }
 .more-info li a,.more-info li a:visited { font-weight:normal;color:#fff;text-shadow:1px 1px 0 #b32103; }
-.more-info .year { margin:0;padding:0;width:64px;height:56px;text-indent:-9999px;overflow:hidden;background:transparent url('../images/two-eleven.png') center center no-repeat; }
+.more-info .year { margin:0;padding:0;width:64px;height:56px;text-indent:-9999px;overflow:hidden;background:transparent url('/images/two-eleven.png') center center no-repeat; }
 .more-info .link { text-align:left; }
 .more-info .date { text-align:right; }
 .more-info .date span, .more-info .link span { text-transform:none;letter-spacing:0px; }
@@ -51,7 +51,7 @@ a:link,a:visited { color:rgb(250,226,194);text-decoration:none;font-weight:bold;
 
 .page {
   display: block;
-  background: #a8c8d2 url('../images/sea.jpg') left bottom repeat;
+  background: #a8c8d2 url('/images/sea.jpg') left bottom repeat;
   color: #406d80;
   text-shadow: 0 1px 0 rgba(255,255,255,.5);
   border-color: #fff transparent #7cadbf;
@@ -113,7 +113,7 @@ a:link,a:visited { color:rgb(250,226,194);text-decoration:none;font-weight:bold;
 }
 
 .page .information .data {
-  background: transparent url('../images/dots.png') left bottom repeat-x;
+  background: transparent url('/images/dots.png') left bottom repeat-x;
   margin: 0 0 12px;
 }
 
@@ -121,7 +121,7 @@ a:link,a:visited { color:rgb(250,226,194);text-decoration:none;font-weight:bold;
   display: block;
   overflow: hidden;
   clear: both;
-  background: transparent url('../images/dots.png') left top repeat-x;
+  background: transparent url('/images/dots.png') left top repeat-x;
   padding: 8px;
 }
 
@@ -162,7 +162,7 @@ a:link,a:visited { color:rgb(250,226,194);text-decoration:none;font-weight:bold;
 .page .register .field {
   overflow: hidden;
   clear: both;
-  background: transparent url('../images/dots.png') left bottom repeat-x;
+  background: transparent url('/images/dots.png') left bottom repeat-x;
 }
 
 .page .register label {
@@ -220,7 +220,7 @@ a:link,a:visited { color:rgb(250,226,194);text-decoration:none;font-weight:bold;
 }
 
 .page .register .button input[type="submit"] {
-  background: url('../images/button.png') left top repeat-x;
+  background: url('/images/button.png') left top repeat-x;
   border: 1px solid #295466;
   border-radius: 2px;
   -webkit-border-radius: 2px;

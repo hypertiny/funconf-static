@@ -9,3 +9,8 @@ To ease the transition from Ruby brain to PHP brain, I've used the Sinatra inspi
 http://www.limonade-php.net/
 
 Things are very simple, with index.php providing the relevant responses, and the views folder providing the views.
+
+## The TITO API ##
+
+The funconf ticketing system uses the API from http://titoapp.com
+
