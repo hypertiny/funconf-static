@@ -76,10 +76,10 @@ dispatch_post('/book', 'book_post');
     }
   }
 
-dispatch('/ticket', 'ticket');
+dispatch('/ticket/:purchase_id', 'ticket');
   function ticket()
   {
-    $purchase = option('tito')->getPurchase($_GET['purchase_id'])->purchase;
+    $purchase = option('tito')->getPurchase(params('purchase_id'))->purchase;
     set('purchase', $purchase);
     return html('ticket.html.php');
   }
