@@ -27,7 +27,10 @@
             <li>
               <span class="name"><?= $ticket->title; ?> <?= $release->title ?></span>
               <span class="price">&#8364;<?= $release->price ?></span>
-              <span class="expiration"><?= $release->end_at ?></span>
+              <span class="expiration">
+                <? $parsed_date = date_parse($release->end_at) ?>
+                <?= $parsed_date['year'] ?>-<?= $parsed_date['month']?>-<?= $parsed_date['day'] ?>
+              </span>
               <span class="quantity right"><?= $release->quantity_left ?> left</span>
             </li>
           <? } ?>
