@@ -11,8 +11,9 @@ function configure()
   $localhost = preg_match('/^localhost(\:\d+)?/', $_SERVER['HTTP_HOST']);
   $env =  $localhost ? ENV_DEVELOPMENT : ENV_PRODUCTION;
   option('env', $env);
+  
   $tito = new Tito($env == ENV_PRODUCTION ? 'r8pmQaAEygMWg6fLPsh0' : 'pXGOXwx1JcQXxypcoPhX');
-  set('tito', $tito)
+  option('tito', $tito);
 }
 
 function before()
@@ -29,6 +30,9 @@ dispatch('/', 'index');
 dispatch('/book', 'book');
   function book()
   {
+    $event = option('tito')->getEvent('funconf');
+
+    print_r($event);
     return html('book.html.php');
   }
 
