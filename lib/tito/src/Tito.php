@@ -177,10 +177,6 @@ class Tito
 
         $http->send();
         if ($http->getResponseCode() == 200) {
-            $string = $http->getResponseBody();
-            var_dump(json_decode($string));
-            die();
-
             return json_decode($http->getResponseBody());
         }
 
