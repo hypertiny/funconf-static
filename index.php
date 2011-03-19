@@ -1,6 +1,7 @@
-<?
+<?php
 
-require_once('lib/limonade.php');
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'lib/limonade.php';
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'lib/tito/src/Tito.php';
 
 function before()
 {
@@ -12,7 +13,7 @@ dispatch('/', 'index');
   {
     return html('index.html.php');
   }
-  
+
 dispatch('/book', 'book');
   function book()
   {
@@ -24,7 +25,6 @@ dispatch('/ticket', 'ticket');
   {
     return html('ticket.html.php');
   }
-  
+
 run();
 
-?>
