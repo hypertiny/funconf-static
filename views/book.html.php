@@ -28,8 +28,8 @@
               <span class="name"><?= $release->title ?></span>
               <span class="price">&#8364;<?= $release->price ?></span>
               <span class="expiration">
-                <? $parsed_date = date_parse($release->end_at) ?>
-                <?= $parsed_date['year'] ?>-<?= $parsed_date['month']?>-<?= $parsed_date['day'] ?>
+                <? $d = new Datetime($release->end_at); ?>
+                <?= $d->format('j M Y') ?>
               </span>
               <span class="quantity right"><?= $release->quantity_left ?> left</span>
             </li>

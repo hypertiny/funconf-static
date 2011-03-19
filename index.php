@@ -14,6 +14,8 @@ function configure()
   
   $tito = new Tito($env == ENV_PRODUCTION ? 'r8pmQaAEygMWg6fLPsh0' : 'pXGOXwx1JcQXxypcoPhX', $env == ENV_PRODUCTION);
   option('tito', $tito);
+  
+  date_default_timezone_set('UTC');
 }
 
 function before()
