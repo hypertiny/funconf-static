@@ -1,6 +1,15 @@
 <?
 
+# our little web framework
 require_once('lib/limonade.php');
+
+
+function configure()
+{
+  $localhost = preg_match('/^localhost(\:\d+)?/', $_SERVER['HTTP_HOST']);
+  $env =  $localhost ? ENV_DEVELOPMENT : ENV_PRODUCTION;
+  option('env', $env);
+}
 
 function before()
 {
