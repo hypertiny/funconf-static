@@ -41,6 +41,10 @@ dispatch('/book', 'book');
 dispatch_post('/book', 'book_post');
   function book_post()
   {
+    $event = option('tito')->getEvent('funconf');
+    set('event', $event->event);
+    set('ticket_types', $event->event->ticket_types);
+    
     $ticketInfo = new stdClass();
     $ticketInfo->{1} = new stdClass();
     $ticketInfo->{1}->ticket_type_id = $_POST['ticket_type_id'];
@@ -60,12 +64,23 @@ dispatch_post('/book', 'book_post');
         'line_items_attributes' => $ticketInfo
     ));
     
-    print_r($purchase);
+    set('purchase', $purchase);
+    
+    if(@$purchase->redirect_to)
+    {
+      return redirect_to($purchase->redirect_to);
+    }
+    else
+    {
+      return html('book.html.php');
+    }
   }
 
 dispatch('/ticket', 'ticket');
   function ticket()
   {
+    $purchase = option('tito')->getPurchase($_GET['purchase_id'])->purchase;
+    set('purchase', $purchase);
     return html('ticket.html.php');
   }
 

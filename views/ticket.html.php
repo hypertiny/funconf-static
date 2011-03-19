@@ -10,19 +10,21 @@
         <ul class="data">
           <li>
             <span class="term">Name</span>
-            <span class="value">Paul Campbell</span>
+            <span class="value"><?= $purchase->name ?></span>
           </li>
           <li>
             <span class="term">Email</span>
-            <span class="value">paul@hypertiny.ie</span>
+            <span class="value"><?= $purchase->email ?></span>
           </li>
-          <li>
-            <span class="term">Purchase</span>
-            <span class="value">2x Early Bird @ &#8364;495</span>
-          </li>
+          <? foreach($purchase->tickets as $ticket) { ?>
+            <li>
+              <span class="term">Purchase</span>
+              <span class="value">1x <?= $ticket->release->title ?> #<?= $ticket->number ?> @ &#8364;<?= $ticket->price ?></span>
+            </li>
+          <? } ?>
           <li>
             <span class="term">Reference</span>
-            <span class="value">db0j89fg8</span>
+            <span class="value"><?= $purchase->cached_slug ?></span>
           </li>
         </ul>
       </div>
