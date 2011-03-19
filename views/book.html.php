@@ -4,7 +4,12 @@
       <h3>Ticketing</h3>
       <ul class="list bulleted">
         <li class="odd"><em>Travel</em> from Dublin to Lismore;</li>
-        <li><em>two nights</em> bed and breakfast accommodation in Lismore;</li>
+        <li>
+          <em>two nights</em> bed and breakfast accommodation in Lismore (either
+          <a href="http://www.lismorehousehotel.com/">Lismore House Hotel</a>
+          or
+          <a href="http://www.waterfordhotel.com/">Ballyrafter House Hotel</a>);
+        </li>
         <li class="odd">dinner and <em>party</em> on Friday night;</li>
         <li>keynotes and sessions in the <em>castle</em>;</li>
         <li class="odd">guided lunchtime <em>activities</em> (and packed lunch);</li>
