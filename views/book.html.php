@@ -17,32 +17,27 @@
 
       <ul class="pricing">
         <li class="legend">
-          <? foreach($event->tickets() as $ticket) { ?>
-            <?= $ticket->name(); ?>
-          <? } ?>
           <span class="name">&nbsp;</span>
           <span class="price">price</span>
           <span class="expiration">expires</span>
           <span class="quantity right">quantity</span>
         </li>
-        <li>
-          <span class="name">Early Bird</span>
-          <span class="price">&#8364;495</span>
-          <span class="expiration">30 Apr 2011</span>
-          <span class="quantity right">32 left</span>
-        </li>
-        <li>
-          <span class="name">Regular Price</span>
-          <span class="price">&#8364;695</span>
-          <span class="expiration">23 Sep 2011</span>
-          <span class="quantity right">75 left</span>
-        </li>
+        <? foreach($ticket_types as $ticket) { ?>
+          <? foreach($ticket->releases as $release) { ?>
+            <li>
+              <span class="name"><?= $ticket->title; ?> <?= $release->title ?></span>
+              <span class="price">&#8364;<?= $release->price ?></span>
+              <span class="expiration"><?= $release->end_at ?></span>
+              <span class="quantity right"><?= $release->quantity_left ?> left</span>
+            </li>
+          <? } ?>
+        <? } ?>
       </ul>
     </div>
 
     <div class="register">
       <h3>Get Yours</h3>
-      <form>
+      <form action="?/book">
         <fieldset class="fields">
           <div class="field">
             <label for="name">name</label>
