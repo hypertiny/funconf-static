@@ -25,7 +25,7 @@
         <? foreach($ticket_types as $ticket) { ?>
           <? foreach($ticket->releases as $release) { ?>
             <li>
-              <span class="name"><?= $ticket->title; ?> <?= $release->title ?></span>
+              <span class="name"><?= $release->title ?></span>
               <span class="price">&#8364;<?= $release->price ?></span>
               <span class="expiration">
                 <? $parsed_date = date_parse($release->end_at) ?>
