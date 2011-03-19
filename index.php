@@ -12,7 +12,7 @@ function configure()
   $env =  $localhost ? ENV_DEVELOPMENT : ENV_PRODUCTION;
   option('env', $env);
   
-  $tito = new Tito($env == ENV_PRODUCTION ? 'r8pmQaAEygMWg6fLPsh0' : 'pXGOXwx1JcQXxypcoPhX');
+  $tito = new Tito($env == ENV_PRODUCTION ? 'r8pmQaAEygMWg6fLPsh0' : 'pXGOXwx1JcQXxypcoPhX', $env == ENV_PRODUCTION);
   option('tito', $tito);
 }
 
@@ -31,8 +31,7 @@ dispatch('/book', 'book');
   function book()
   {
     $event = option('tito')->getEvent('funconf');
-
-    print_r($event);
+    set('event', $event);
     return html('book.html.php');
   }
 

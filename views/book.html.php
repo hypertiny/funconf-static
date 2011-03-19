@@ -17,6 +17,9 @@
 
       <ul class="pricing">
         <li class="legend">
+          <? foreach($event->tickets() as $ticket) { ?>
+            <?= $ticket->name(); ?>
+          <? } ?>
           <span class="name">&nbsp;</span>
           <span class="price">price</span>
           <span class="expiration">expires</span>
