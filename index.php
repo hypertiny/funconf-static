@@ -41,7 +41,26 @@ dispatch('/book', 'book');
 dispatch_post('/book', 'book_post');
   function book_post()
   {
+    $ticketInfo = new stdClass();
+    $ticketInfo->{1} = new stdClass();
+    $ticketInfo->{1}->ticket_type_id = $_POST['ticket_type_id'];
+    $ticketInfo->{1}->release_id = $_POST['release_id'];
+    $ticketInfo->{1}->quantity = $_POST['quantity'];
+
+    // Here you set your own data.
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+
+    // The first param is the event to add the ticket to. The second parameter
+    // is the array of information to pass. See the ticketInfo hack above, this has
+    // to be done otherwise we will pass an actual array to line_items_attributes (IE [{},{}])
+    $purchase = option('tito')->addPurchase('funconf', array(
+        'name' => $name,
+        'email' => $email,
+        'line_items_attributes' => $ticketInfo
+    ));
     
+    print_r($purchase);
   }
 
 dispatch('/ticket', 'ticket');
