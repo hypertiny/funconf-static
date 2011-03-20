@@ -45,7 +45,7 @@
 
     <div class="register">
       <h3>Get Yours</h3>
-      <form action="?/book" method="POST">
+      <form action="/book" method="POST">
         <fieldset class="fields">
           <div class="field">
             <label for="name">
