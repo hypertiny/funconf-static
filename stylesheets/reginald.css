@@ -26,7 +26,7 @@ input::-webkit-input-placeholder { color: #8fb2bf; }
 
 /* rebuild */
 body { font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:100%;color:rgb(250,226,194);background:rgb(234,81,0) url('/images/bg.png') center top repeat; }
-a:link,a:visited { color:rgb(250,226,194);text-decoration:none;font-weight:bold; }
+a:link,a:visited { color:rgb(234,70,0);text-decoration:none;font-weight:bold; }
 #medallion { width:270px;height:270px;margin:180px auto 0;background:transparent url('/images/medallion.png') left top no-repeat; }
 #header h1 { width:300px;height:39px;margin:32px auto 0;text-indent:-9999px;overflow:hidden;background:transparent url('/images/h1.png') center top no-repeat; }
 .more-info { overflow:hidden;margin:0px auto 0;width:442px; }
