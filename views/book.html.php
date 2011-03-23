@@ -5,6 +5,13 @@
       <ul class="list bulleted">
         <li class="odd"><em>Travel</em> from Dublin to Lismore;</li>
         <li>
+          <em>Once again</em>, <a href="http://www.twitter.com/paulca">Paul</a>
+          &amp;
+          <a href="http://www.twitter.com/eamonleonard">Eamo</a> bring you
+          <strong>funconf.</strong>.
+        </li>
+        <li>
+          2011 includes
           <em>two nights</em> bed and breakfast accommodation in Lismore (either
           <a href="http://www.lismorehousehotel.com/">Lismore House Hotel</a>
           or
@@ -18,6 +25,12 @@
         <li>
           <em>and</em><br />
           <em>ample</em> refreshment for the <em>entire</em> weekend.</li>
+        <li>
+          Brought to you by <a href="http://github.com">Github</a>,
+          <a href="http://orchestra.io">Orchestra</a>
+          <em>and</em>
+          <a href="http://titoapp.com">Tito</a>
+        </li>
       </ul>
 
       <ul class="pricing">
