@@ -29,7 +29,7 @@
           Brought to you by <a href="http://github.com">Github</a>,
           <a href="http://orchestra.io">Orchestra</a>
           <em>and</em>
-          <a href="http://titoapp.com">Tito</a>
+          <a href="http://titoapp.com">Tito</a>.
         </li>
       </ul>
 
