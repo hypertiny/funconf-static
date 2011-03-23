@@ -3,13 +3,13 @@
     <div class="information">
       <h3>Ticketing</h3>
       <ul class="list bulleted">
-        <li class="odd"><em>Travel</em> from Dublin to Lismore;</li>
         <li>
           <em>Once again</em>, <a href="http://www.twitter.com/paulca">Paul</a>
           &amp;
           <a href="http://www.twitter.com/eamonleonard">Eamo</a> bring you
           <strong>funconf.</strong>.
         </li>
+        <li class="odd"><em>Travel</em> from Dublin to Lismore;</li>
         <li>
           2011 includes
           <em>two nights</em> bed and breakfast accommodation in Lismore (either
