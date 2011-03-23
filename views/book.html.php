@@ -9,9 +9,9 @@
           <a href="http://www.twitter.com/eamonleonard">Eamo</a> bring you
           <strong>FUNCONF</strong>.
         </li>
+        <li>'11 includes:</li>
         <li class="odd"><em>Travel</em> from Dublin to Lismore;</li>
         <li>
-          2011 includes
           <em>two nights</em> bed and breakfast accommodation in Lismore (either
           <a href="http://www.lismorehousehotel.com/">Lismore House Hotel</a>
           or
