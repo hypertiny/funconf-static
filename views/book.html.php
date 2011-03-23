@@ -7,7 +7,7 @@
           <em>Once again</em>, <a href="http://www.twitter.com/paulca">Paul</a>
           &amp;
           <a href="http://www.twitter.com/eamonleonard">Eamo</a> bring you
-          <strong>funconf.</strong>.
+          <strong>FUNCONF</strong>.
         </li>
         <li class="odd"><em>Travel</em> from Dublin to Lismore;</li>
         <li>
