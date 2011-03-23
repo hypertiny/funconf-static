@@ -44,57 +44,62 @@
     </div>
 
     <div class="register">
-      <h3>Get Yours</h3>
-      <form action="/book" method="POST">
-        <fieldset class="fields">
-          <div class="field">
-            <label for="name">
-              <? if(isset($purchase)) { ?>
-                <strong>name*</strong>
-              <? } else { ?>
-                name*
+      <? if($event->quantity_left > 0) { ?>
+        <h3>Get Yours </h3>
+      
+        <form action="/book" method="POST">
+          <fieldset class="fields">
+            <div class="field">
+              <label for="name">
+                <? if(isset($purchase)) { ?>
+                  <strong>name*</strong>
+                <? } else { ?>
+                  name*
+                <? } ?>
+              </label>
+              <input type="text" placeholder="John Hancock" title="name" id="name" name="name" value="<?= @$_POST['name'] ?>"/>
+            </div>
+            <div class="field">
+              <label for="email">
+                <? if(isset($purchase)) { ?>
+                  <strong>email*</strong>
+                <? } else { ?>
+                  email*
+                <? } ?>
+              </label>
+              <input type="text" placeholder="jhancock@congress.gov" title="email" id="email" name="email" value="<?= @$_POST['email'] ?>"/>
+            </div>
+            <div class="field">
+              <label for="discount">discount</label>
+              <input type="text" placeholder="" title="discount" id="discount" name="discount" value="<?= @$_POST['discount'] ?>"/>
+            </div>
+            <? $i = 0 ?>
+            <? foreach($ticket_types as $ticket) { ?>
+              <? foreach($ticket->releases as $release) { ?>
+                <? $i = $i + 1 ?>
+                <div class="field">
+                  <label for="quantity">quantity</label>
+                  <select title="quantity" id="quantity" name="quantity">
+                    <option value="1" <?= @$_POST['quantity'] == '1' ? 'selected' : '' ?>>1</option>
+                    <option value="2" <?= @$_POST['quantity'] == '2' ? 'selected' : '' ?>>2</option>
+                    <option value="3" <?= @$_POST['quantity'] == '3' ? 'selected' : '' ?>>3</option>
+                    <option value="4" <?= @$_POST['quantity'] == '4' ? 'selected' : '' ?>>4</option>
+                    <option value="5" <?= @$_POST['quantity'] == '5' ? 'selected' : '' ?>>5</option>
+                  </select>
+                  <input type="hidden" name="release_id" value="<?= $release->id ?>">
+                  <input type="hidden" name="ticket_type_id" value="<?= $ticket->id ?>">
+                  <span class="total"><em>&#8364;</em><?= $release->price ?></span>
+                </div>
               <? } ?>
-            </label>
-            <input type="text" placeholder="John Hancock" title="name" id="name" name="name" value="<?= @$_POST['name'] ?>"/>
-          </div>
-          <div class="field">
-            <label for="email">
-              <? if(isset($purchase)) { ?>
-                <strong>email*</strong>
-              <? } else { ?>
-                email*
-              <? } ?>
-            </label>
-            <input type="text" placeholder="jhancock@congress.gov" title="email" id="email" name="email" value="<?= @$_POST['email'] ?>"/>
-          </div>
-          <div class="field">
-            <label for="discount">discount</label>
-            <input type="text" placeholder="" title="discount" id="discount" name="discount" value="<?= @$_POST['discount'] ?>"/>
-          </div>
-          <? $i = 0 ?>
-          <? foreach($ticket_types as $ticket) { ?>
-            <? foreach($ticket->releases as $release) { ?>
-              <? $i = $i + 1 ?>
-              <div class="field">
-                <label for="quantity">quantity</label>
-                <select title="quantity" id="quantity" name="quantity">
-                  <option value="1" <?= @$_POST['quantity'] == '1' ? 'selected' : '' ?>>1</option>
-                  <option value="2" <?= @$_POST['quantity'] == '2' ? 'selected' : '' ?>>2</option>
-                  <option value="3" <?= @$_POST['quantity'] == '3' ? 'selected' : '' ?>>3</option>
-                  <option value="4" <?= @$_POST['quantity'] == '4' ? 'selected' : '' ?>>4</option>
-                  <option value="5" <?= @$_POST['quantity'] == '5' ? 'selected' : '' ?>>5</option>
-                </select>
-                <input type="hidden" name="release_id" value="<?= $release->id ?>">
-                <input type="hidden" name="ticket_type_id" value="<?= $ticket->id ?>">
-                <span class="total"><em>&#8364;</em><?= $release->price ?></span>
-              </div>
             <? } ?>
-          <? } ?>
-        </fieldset>
-        <fieldset class="buttons">
-          <div class="button"><input type="submit" value="Checkout with Paypal" /></div>
-        </fieldset>
-      </form>
+          </fieldset>
+          <fieldset class="buttons">
+            <div class="button"><input type="submit" value="Checkout with Paypal" /></div>
+          </fieldset>
+        </form>
+      <? } else { ?>
+        There are no tickets available right now.
+      <? } ?>
     </div>
   </div>
 </div>
