@@ -21,5 +21,9 @@
 </head>
 <body>
   <?= $content ?>
+  
+  <script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">clicky.init(174473);</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/174473ns.gif" /></p></noscript>
 </body>
 </html>
