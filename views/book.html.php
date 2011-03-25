@@ -111,7 +111,11 @@
           </fieldset>
         </form>
       <? } else { ?>
-        There are no tickets available right now.
+        <ul class="list bulleted">
+          <li>
+            There are no tickets available right now.
+          </li>
+        </ul>
       <? } ?>
     </div>
   </div>
