@@ -37,7 +37,7 @@
         <li class="legend">
           <span class="name">&nbsp;</span>
           <span class="price">price</span>
-          <span class="expiration">expires</span>
+          <span class="expiration">on sale</span>
           <span class="quantity right">quantity</span>
         </li>
         <? foreach($ticket_types as $ticket) { ?>
@@ -46,7 +46,7 @@
               <span class="name"><?= $release->title ?></span>
               <span class="price">&#8364;<?= $release->price ?></span>
               <span class="expiration">
-                <? $d = new Datetime($release->end_at); ?>
+                <? $d = new Datetime($release->start_at); ?>
                 <?= $d->format('j M Y') ?>
               </span>
               <span class="quantity right"><?= $release->quantity_left ?> left</span>
@@ -57,7 +57,7 @@
     </div>
 
     <div class="register">
-      <? if($event->quantity_left > 0) { ?>
+      <? if($event->quantity_available_now > 0) { ?>
         <h3>Get Yours </h3>
       
         <form action="/book" method="POST">
