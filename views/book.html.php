@@ -89,20 +89,22 @@
             <? $i = 0 ?>
             <? foreach($ticket_types as $ticket) { ?>
               <? foreach($ticket->releases as $release) { ?>
-                <? $i = $i + 1 ?>
-                <div class="field">
-                  <label for="quantity">quantity</label>
-                  <select title="quantity" id="quantity" name="quantity">
-                    <option value="1" <?= @$_POST['quantity'] == '1' ? 'selected' : '' ?>>1</option>
-                    <option value="2" <?= @$_POST['quantity'] == '2' ? 'selected' : '' ?>>2</option>
-                    <option value="3" <?= @$_POST['quantity'] == '3' ? 'selected' : '' ?>>3</option>
-                    <option value="4" <?= @$_POST['quantity'] == '4' ? 'selected' : '' ?>>4</option>
-                    <option value="5" <?= @$_POST['quantity'] == '5' ? 'selected' : '' ?>>5</option>
-                  </select>
-                  <input type="hidden" name="release_id" value="<?= $release->id ?>">
-                  <input type="hidden" name="ticket_type_id" value="<?= $ticket->id ?>">
-                  <span class="total"><em>&#8364;</em><?= $release->price ?></span>
-                </div>
+                <? if($release->quantity_left > 0) { ?>
+                  <? $i = $i + 1 ?>
+                  <div class="field">
+                    <label for="quantity">quantity</label>
+                    <select title="quantity" id="quantity" name="quantity">
+                      <option value="1" <?= @$_POST['quantity'] == '1' ? 'selected' : '' ?>>1</option>
+                      <option value="2" <?= @$_POST['quantity'] == '2' ? 'selected' : '' ?>>2</option>
+                      <option value="3" <?= @$_POST['quantity'] == '3' ? 'selected' : '' ?>>3</option>
+                      <option value="4" <?= @$_POST['quantity'] == '4' ? 'selected' : '' ?>>4</option>
+                      <option value="5" <?= @$_POST['quantity'] == '5' ? 'selected' : '' ?>>5</option>
+                    </select>
+                    <input type="hidden" name="release_id" value="<?= $release->id ?>">
+                    <input type="hidden" name="ticket_type_id" value="<?= $ticket->id ?>">
+                    <span class="total"><em>&#8364;</em><?= $release->price ?></span>
+                  </div>
+                <? } ?>
               <? } ?>
             <? } ?>
           </fieldset>
