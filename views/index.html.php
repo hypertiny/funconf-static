@@ -10,6 +10,6 @@
   <ul class="more-info">
     <li class="date"><span>23rd</span> &ndash; <span>25th</span> September</li>
     <li class="year">11</li>
-    <li class="link"><a href="/book" class="book">Tickets</a></li>
+    <li class="link"><a href="/book" class="book">Tickets Available</a></li>
   </ul>
 </div>
