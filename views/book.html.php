@@ -89,7 +89,7 @@
             <? $i = 0 ?>
             <? foreach($ticket_types as $ticket) { ?>
               <? foreach($ticket->releases as $release) { ?>
-                <? if($release->quantity_left > 0) { ?>
+                <? if($release->quantity_left > 0 && !$release->hidden) { ?>
                   <? $i = $i + 1 ?>
                   <div class="field">
                     <label for="quantity">quantity</label>
