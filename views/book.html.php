@@ -27,6 +27,7 @@
           <em>ample</em> refreshment for the <em>entire</em> weekend.</li>
         <li>
           Brought to you by
+          <a href="http://engineyard.com">Engine Yard</a>,
           <a href="http://github.com">Github</a>,
           <a href="http://heroku.com">Heroku</a>,
           <a href="http://orchestra.io">Orchestra</a>
