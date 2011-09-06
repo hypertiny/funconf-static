@@ -53,7 +53,7 @@ dispatch_post('/book', 'book_post');
     $ticketInfo->{1}->ticket_type_id = $_POST['ticket_type_id'];
     $ticketInfo->{1}->release_id = $_POST['release_id'];
     $ticketInfo->{1}->quantity = $_POST['quantity'];
-    $ticketInfo->{1}->payment_type = 'paypal'
+    $ticketInfo->{1}->payment_type = 'paypal';
 
     // Here you set your own data.
     $name = $_POST['name'];
