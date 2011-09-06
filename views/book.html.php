@@ -85,10 +85,6 @@
               </label>
               <input type="text" placeholder="jhancock@congress.gov" title="email" id="email" name="email" value="<?= @$_POST['email'] ?>"/>
             </div>
-            <div class="field">
-              <label for="discount">discount</label>
-              <input type="text" placeholder="" title="discount" id="discount" name="discount" value="<?= @$_POST['discount'] ?>"/>
-            </div>
             <? $i = 0 ?>
             <? foreach($ticket_types as $ticket) { ?>
               <? foreach($ticket->releases as $release) { ?>
