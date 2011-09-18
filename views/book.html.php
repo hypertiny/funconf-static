@@ -30,6 +30,7 @@
           <a href="http://engineyard.com">Engine Yard</a>,
           <a href="http://github.com">Github</a>,
           <a href="http://heroku.com">Heroku</a>,
+          <a href="http://getexceptional.com">Exceptional</a>,
           <a href="http://orchestra.io">Orchestra</a>
           <em>and</em>
           <a href="http://titoapp.com">Tito</a>.
