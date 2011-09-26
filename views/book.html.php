@@ -33,6 +33,23 @@
       <p>The party continued within the castle late into the night, before bleary eyes reconvened in the morning for breakfast, a presentation about the history of the castle by estate manager Denis Nevin, and a bus trip back to Dublin. A barbecue at the <a href="http://odessa.ie/club">Odessa Club</a> closed the event.</p>
 
       <p>The organisers would like to thank Denis and Maura at Lismore Castle, without whose assistance and dedication this could not have happened. <a href="http://www.flickr.com/search/?q=funconf&amp;d=taken-20110901-&amp;ss=0&amp;ct=0&amp;mt=all&amp;w=all&amp;adv=1">Many photos</a> were taken, and much fun was had by all.</p>
+      
+      <h3>Sponsors</h3>
+      <ul class="list bulleted">
+        <li>
+          Funconf was brought to you with the generous donations of
+          <a href="http://engineyard.com">Engine Yard</a>,
+          <a href="http://github.com">Github</a>,
+          <a href="http://heroku.com">Heroku</a>
+          <em>and</em>
+          <a href="http://getexceptional.com">Exceptional</a>
+          
+          by the people who made
+          <a href="http://orchestra.io">Orchestra</a>
+          <em>and</em>
+          <a href="http://titoapp.com">Tito</a>.
+        </li>
+      </ul>
     </div>
   </div>
 </div>
