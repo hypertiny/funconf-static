@@ -140,7 +140,14 @@ a:link,a:visited { color:rgb(234,70,0);text-decoration:none;font-weight:bold; }
   float: left;
 }
 
-.page .list, .page p {
+.page .list {
+  font-family:Palatino,Georgia,Times,serif;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 12px;
+}
+
+.page p {
   font-family:Palatino,Georgia,Times,serif;
   font-size: 14px;
   line-height: 18px;
