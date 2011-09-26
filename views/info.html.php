@@ -40,7 +40,7 @@
           Funconf was brought to you with the generous donations of
           <a href="http://engineyard.com">Engine Yard</a>,
           <a href="http://github.com">Github</a>,
-          <a href="http://heroku.com">Heroku</a>
+          <a href="http://heroku.com">Heroku</a>,
           <em>and</em>
           <a href="http://getexceptional.com">Exceptional</a>
           
@@ -48,6 +48,8 @@
           <a href="http://orchestra.io">Orchestra</a>
           <em>and</em>
           <a href="http://titoapp.com">Tito</a>.
+          
+          A special thanks to <a href="http://twitter.com/janl">Jan Lehnardt</a> for sponsoring the name badges, and to <a href="http://www.isleofjura.com/agecheck.aspx">Isle of Jura Whiskey</a> for providing an ample supply of 10yo scotch for the weekend.
         </li>
       </ul>
     </div>
