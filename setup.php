@@ -32,6 +32,12 @@ dispatch('/', 'index');
     return html('index.html.php');
   }
 
+dispatch('/info', 'index');
+  function index()
+  {
+    return html('info.html.php');
+  }
+
 dispatch('/book', 'book');
   function book()
   {
