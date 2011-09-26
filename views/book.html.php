@@ -12,7 +12,7 @@
 
       <p><a href="http://twitter.com/destraynor">Des Traynor</a> gave us insight into how cutting things out from his life helped make him happier. He was followed by <a href="http://twitter.com/seanbonner">Sean Bonner</a>, who talked about Safecast, a crowd-sourced attempt to map the world&#8217;s radiation levels and change the radiation detection industry, a project founded after the Japanese Earthquake in March 2011.</p>
 
-      <p><a href="http://twitter.com/robinb">Robin Blandford</a> had us place our right hand on the shoulder of anyone who was changing the world for the better and warned us if a hand wasn&#8217;t on our shoulder, we need to think bigger (or maybe stand next to more people -Ed.).</p>
+      <p><a href="http://twitter.com/robinb">Robin Blandford</a> had us place our right hand on the shoulder of anyone who was changing the world for the better and warned us if a hand wasn&#8217;t on our shoulder, we need to think bigger (or maybe stand next to more people &mdash;Ed.).</p>
 
       <p>The morning session was completed by <a href="http://twitter.com/asymco">Horace Dediu</a>, who showed us how he wants to reinvent market analysis, using data in smart ways to gain insight into things otherwise unknown.</p>
 
