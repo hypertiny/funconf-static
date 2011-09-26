@@ -33,7 +33,7 @@ dispatch('/', 'index');
   }
 
 dispatch('/info', 'info');
-  function index()
+  function info()
   {
     return html('info.html.php');
   }
