@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Funconf II &bull; 23rd &ndash; 25th September</title>
-  <link rel="stylesheet" href="/stylesheets/reginald.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="/stylesheets/reginald.css?42" type="text/css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="/stylesheets/form.css" type="text/css" media="screen" charset="utf-8">
   <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
