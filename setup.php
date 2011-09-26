@@ -32,7 +32,7 @@ dispatch('/', 'index');
     return html('index.html.php');
   }
 
-dispatch('/info', 'index');
+dispatch('/info', 'info');
   function index()
   {
     return html('info.html.php');
