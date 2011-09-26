@@ -18,7 +18,7 @@
 
       <p>A packed lunch in the garden preceded the afternoon sessions. This was a chance for everyone to speak, raising questions around business, diversity, the arts and our responsibilities as influential people.</p>
 
-      <p>The entire group reconvened after attiring themselves &#8220;Funconf Smart&#8221;. <a href="http://twitter.com/voodootikigod">Chris Williams</a> appealed to everyone to solve an uncomfortable phenomenon that no-one likes: hate on the internet.</p>
+      <p>The entire group reconvened after attiring themselves &lsquo;Funconf Smart&rsquo;. <a href="http://twitter.com/voodootikigod">Chris Williams</a> appealed to everyone to solve an uncomfortable phenomenon that no-one likes: hate on the internet.</p>
 
       <p>Finally, <a href="http://twitter.com/rands">Michael Lopp</a>, aka Rands, spoke about how startups need three roles: a designer, an engineer and a dictator.</p>
 
