@@ -28,7 +28,7 @@
 
       <p>After photos, the group assembled for dinner in the <a href="http://en.wikipedia.org/wiki/Augustus_Welby_Northmore_Pugin">Pugin</a> room, the castle banqueting hall. Paul and Eamon thanked everybody, and Tom Preston Werner talked for a few more minutes about the importance of crafting experiences.</p>
 
-      <p>After dinner, the group was invited back to the main hall to listen Diarmuid Ó Drisceoil, a local <a href="http://en.wikipedia.org/wiki/Seancha%C3%AD">seannchaí</a>, tell his stories. This preceded a performance by <a href="http://www.kila.ie/">Kila</a> in the Pugin room that surely no one who was there will ever forget.</p>
+      <p>After dinner, the group was invited back to the main hall to listen Diarmuid Ó Drisceoil, a local <a href="http://en.wikipedia.org/wiki/Seancha%C3%AD">seanchaí</a>, tell his stories. This preceded a performance by <a href="http://www.kila.ie/">Kila</a> in the Pugin room that surely no one who was there will ever forget.</p>
 
       <p>The party continued within the castle late into the night, before bleary eyes reconvened in the morning for breakfast, a presentation about the history of the castle by estate manager Denis Nevin, and a bus trip back to Dublin. A barbecue at the <a href="http://odessa.ie/club">Odessa Club</a> closed the event.</p>
 
