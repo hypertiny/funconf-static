@@ -33,7 +33,7 @@
           <a href="http://getexceptional.com">Exceptional</a>,
           <a href="http://orchestra.io">Orchestra</a>
           <em>and</em>
-          <a href="http://titoapp.com">Tito</a>.
+          <a href="http://tito.io">Tito</a>.
         </li>
       </ul>
 

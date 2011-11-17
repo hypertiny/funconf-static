@@ -47,7 +47,7 @@
           by the people who made
           <a href="http://orchestra.io">Orchestra</a>
           <em>and</em>
-          <a href="http://titoapp.com">Tito</a>.
+          <a href="http://tito.io">Tito</a>.
           
           A special thanks to <a href="http://twitter.com/janl">Jan Lehnardt</a> for sponsoring the name badges, and to <a href="http://www.isleofjura.com/agecheck.aspx">Isle of Jura Whiskey</a> for providing an ample supply of 10 year old scotch for the weekend.
         </li>

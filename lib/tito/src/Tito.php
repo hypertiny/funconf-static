@@ -1,7 +1,7 @@
 <?php
 /**
  * Orchestra.io interacts with many services. This is the Tito App
- * library to interact with http://titoapp.com
+ * library to interact with http://tito.io
  *
  * @copyright     Copyright 2011 — Orchestra Platform Ltd. <info@orchestra.io>
  * @license       http://opensource.org/licenses/bsd-license.php The BSD License
@@ -20,7 +20,7 @@ use \ArrayObject;
  * Interact with the Titoapp.com API
  *
  * This package uses the PECL http extension and connects
- * to the titoapp.com api. The API also has HTTP Basic Auth
+ * to the tito.io api. The API also has HTTP Basic Auth
  * support but for simplicity we only use the token in this wrapper.
  *
  * <code>
@@ -36,7 +36,7 @@ class Tito
      * Api Token
      *
      * The API token to interact with your protected resources
-     * on the titoapp.com api.
+     * on the tito.io api.
      *
      * @var string $token  The API token.
      */
@@ -47,7 +47,7 @@ class Tito
      *
      * @var string $endpoint The API endpoint.
      */
-    protected $endpoint = 'http://titoapp.com';
+    protected $endpoint = 'http://tito.io';
 
     /**
      * Constructor where we set the token to use the
