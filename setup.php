@@ -41,9 +41,9 @@ dispatch('/info', 'info');
 dispatch('/book', 'book');
   function book()
   {
-    $event = option('tito')->getEvent('funconf');
-    set('event', $event->event);
-    set('ticket_types', $event->event->ticket_types);
+    // $event = option('tito')->getEvent('funconf');
+    // set('event', $event->event);
+    // set('ticket_types', $event->event->ticket_types);
     return html('book.html.php');
   }
 
